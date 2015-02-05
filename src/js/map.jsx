@@ -21,6 +21,12 @@ var Map = React.createClass({
                 [myGeoHash[i].latitude[1], myGeoHash[i].longitude[1]],
                 [myGeoHash[i].latitude[2], myGeoHash[i].longitude[2]]
             ]).addTo(this.map);
+
+            var bounds = [[myGeoHash[i].latitude[0], myGeoHash[i].longitude[0]], [myGeoHash[i].latitude[1], myGeoHash[i].longitude[1]]];
+
+            // create an orange rectangle
+            L.rectangle(bounds, {color: "#ff7800", weight: 1}).addTo(this.map);
+
         }
         //var latlng = L.latLng(50.5, 30.5);
         //L.multiPolygon([myGeoHash.latitude, myGeoHash.longitude]).addTo(this.map);
