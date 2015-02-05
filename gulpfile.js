@@ -22,7 +22,7 @@ var config = {
     destination: './public/'
   },
   styles: {
-    source: './src/**/*.css',
+    source: ['./src/**/*.css', './node_modules/leaflet/dist/leaflet.css'],
     watch: './src/**/*.css',
     destination: './public/css/'
   },
