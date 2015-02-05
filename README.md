@@ -1,3 +1,18 @@
+## Goal
+![Goal map](https://raw.githubusercontent.com/rikukissa/leaflet-geohash-base/master/goal.png)
+
+Our goal is to create a map with leaflet visualizing GeoHash data. This project contains a data file `src/js/data.js`, but you can also use data from somewhere else.
+
+### Keywords
+* Leaflet
+* Leaflet-dvf (Leaflet data visualization framework)
+* Geohash
+* Dealing with flawed javascript libraries
+* Modifying build steps to suit your needs
+
+**Instructions for installing this environment below.**
+
+
 # Project template for [gulp.js](http://gulpjs.com/)
 <img width="114px" height="257px" align="right" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png"/>
 
